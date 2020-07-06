@@ -1,10 +1,10 @@
 function reverseString(input) {
-  let stringArray = input.split('');
+  const stringArray = input.split('');
   let newString = '';
-  for(let i = 0; i < stringArray.length; i += 1) {
+  for (let i = 0; i < stringArray.length; i += 1) {
     newString = stringArray[i] + newString;
   }
   return newString;
 }
 
-module.exports = reverseString
+module.exports = reverseString;
