@@ -1,6 +1,6 @@
 const arrayAnalysis = require('./arrayAnalysis.js');
 
-let object = {
+const object = {
   average: 3.5,
   min: 1,
   max: 6,
@@ -8,5 +8,5 @@ let object = {
 };
 
 test('Analisys array test', () => {
-  expect(arrayAnalysis([1,2,3,4,5,6])).toMatchObject(object);
+  expect(arrayAnalysis([1, 2, 3, 4, 5, 6])).toMatchObject(object);
 });
