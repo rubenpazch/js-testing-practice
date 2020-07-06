@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rubenpazch/js-testing-practice/issues"
   },
-  "homepage": "https://github.com/rubenpazch/js-testing-practice#readme"
+  "homepage": "https://github.com/rubenpazch/js-testing-practice#readme",
+  "dependencies": {
+    "jest": "^26.1.0"
+  }
 }
