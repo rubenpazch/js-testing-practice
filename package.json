@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "watch": "jest --watch *.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/rubenpazch/js-testing-practice/issues"
   },
-  "homepage": "https://github.com/rubenpazch/js-testing-practice#readme"
+  "homepage": "https://github.com/rubenpazch/js-testing-practice#readme",
+  "dependencies": {
+    "jest": "^26.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
 }
